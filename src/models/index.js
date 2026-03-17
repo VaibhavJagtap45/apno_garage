@@ -116,7 +116,6 @@ const refreshTokenSchema = new Schema(
   },
   { timestamps: true },
 );
-refreshTokenSchema.index({ tokenHash: 1 });
 
 // ─── Customer ────────────────────────────────────────────────────────────────
 const customerSchema = new Schema(
